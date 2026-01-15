@@ -5,6 +5,7 @@ import ComparisonTable from "@/pages/Home/components/ComparisonTable";
 import WhatDoesSection from "@/pages/Home/components/WhatDoesSection";
 import BenefitsSection from "@/pages/Home/components/BenefitsSection";
 import Footer from "@/components/Footer";
+import WhoIsThisFor from "./components/WhoIsThisFor";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <WhatDoesSection />
+      <WhoIsThisFor />
       <BenefitsSection />
       <Footer />
     </div>

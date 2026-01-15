@@ -2,7 +2,13 @@ import heroImage from "@/assets/heroimage.png";
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-gray-50">
+    <section className="w-full bg-gray-50 relative">
+      
+      {/* ✅ SEO H1 – visible to search engines, hidden from UI */}
+      <h1 className="sr-only">
+        REACH Furniture Nester – Furniture Nesting and Cutting Optimization Software
+      </h1>
+
       {/* Hero Wrapper */}
       <div
         className="
@@ -13,9 +19,7 @@ const HeroSection = () => {
           justify-center
           overflow-hidden
         "
-        style={{
-          aspectRatio: "16 / 9",
-        }}
+        style={{ aspectRatio: "16 / 9" }}
       >
         {/* Hero Image */}
         <div
@@ -25,8 +29,6 @@ const HeroSection = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize: "contain",
-
-            /* ✅ THIS is the correct part */
             filter: "brightness(0.95) contrast(0.9)",
           }}
         />
