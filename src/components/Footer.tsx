@@ -40,7 +40,7 @@ const Footer = () => {
 
               {/* Email */}
               <div className="flex items-center gap-3">
-                <img src={emailIcon} alt="Email icon for contacting REACH Furniture Nester" className="w-8" />
+                <img src={emailIcon} alt="Email icon for contacting REACH Furniture Nester" className="w-8 icon-a31951" />
                 <span className="text-gray-300 text-lg">
                   info@reach-tech.com
                 </span>
@@ -53,7 +53,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
               >
-                <img src={whatsappIcon} alt="Whatsapp icon for REACH Furniture Nester" className="w-8" />
+                <img src={whatsappIcon} alt="Whatsapp icon for REACH Furniture Nester" className="w-8 icon-a31951" />
                 <span className="text-gray-300 text-lg">
                   +91 84592 78496
                 </span>
@@ -66,7 +66,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-4"
               >
-                <img src={contactIcon} alt="Contact form icon for REACH Furniture Nester" className="w-7" />
+                <img src={contactIcon} alt="Contact form icon for REACH Furniture Nester" className="w-7 icon-a31951" />
                 <span className="text-gray-300 text-lg">
                   Write to Us
                 </span>
