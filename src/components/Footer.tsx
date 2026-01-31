@@ -31,7 +31,7 @@ const Footer = () => {
               <span className="text-primary">REACH</span> Furniture Nester
             </Link>
             <p className="text-gray-300 max-w-md">
-              The REACH Furniture Nester
+              Best In Class Furniture Nester Software
             </p>
 
 
